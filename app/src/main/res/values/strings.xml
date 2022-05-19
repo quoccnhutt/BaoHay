@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Báo Hay</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    
+    <string name="text">Light Mode</string>
+
+</resources>

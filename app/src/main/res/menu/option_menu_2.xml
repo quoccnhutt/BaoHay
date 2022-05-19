@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemAdd"
+        android:title="Load"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemSave"
+        android:title="Save"
+        android:icon="@drawable/ic_baseline_save_24"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemShare"
+        android:title="Share"
+        android:icon="@drawable/ic_baseline_share_24"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/itemTinDaDoc"
+        android:title="Tin đã đọc"
+        android:icon="@drawable/ic_reload"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemTinDaLuu"
+        android:title="Tin đã lưu"
+        android:icon="@drawable/ic_baseline_favorite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemThongTin"
+        android:title="Thông tin ứng dụng"
+        android:icon="@drawable/ic_information"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemBandem"
+        android:title="Chế độ ban đêm"
+        android:icon="@drawable/ic_brightness"
+        app:showAsAction="never" />
+</menu>

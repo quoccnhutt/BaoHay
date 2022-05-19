@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="true"
+        cardView:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgMH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/tv_tieude"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:maxLines="3"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="4 tips mặc áo len cổ lọ thật phong cách trong ngày trở lạnh"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|bottom"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_nguontin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Báo Lao Động"
+                android:layout_marginBottom="5dp"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_ngaydang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_marginRight="7dp"
+                android:layout_toRightOf="@+id/tv_nguontin"
+                android:text="20/02/2022"
+                android:textSize="10dp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
